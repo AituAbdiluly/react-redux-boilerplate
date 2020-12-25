@@ -32,17 +32,17 @@ react-redux-boilerplate
     ├── App.jsx
     ├── index.js
     ├── redux
-	│   ├── root-reducer.js
-	│   ├── store.js
-	│   └── sample // this is only sample, feel free to remove this directory
-        │	├── sample.reducers.js
-	│   	├── sample.actions.js
-	│   	├── store.types.js
-    	└── components
+    │   ├── root-reducer.js
+    │   ├── store.js
+    │   └── sample // this is only sample, feel free to remove this directory
+    │	        ├── sample.reducers.js
+    │   	├── sample.actions.js
+    │   	└── store.types.js
+    └── components
 	    ├── global.styles.js
 	    └── sample // this is only sample, feel free to remove this directory
 		    ├── sample.components.js
-		    ├── sample.styles.js
+		    └── sample.styles.js
 ```
 
 ### npm
