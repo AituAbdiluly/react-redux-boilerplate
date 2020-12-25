@@ -35,7 +35,7 @@ react-redux-boilerplate
 	│   ├── root-reducer.js
 	│   ├── store.js
 	│   └── sample // this is only sample, feel free to remove this directory
-	│		├── sample.reducers.js
+        │	├── sample.reducers.js
 	│   	├── sample.actions.js
 	│   	├── store.types.js
     └── components
