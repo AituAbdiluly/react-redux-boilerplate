@@ -1,8 +1,22 @@
 import React from 'react';
-import SampleComponent from './components/sample/sample.components';
+
+import './App.css';
+
+import logo from './logo.png';
 
 const App = () => {
-  return <SampleComponent />;
+  return (
+    <div className="container">
+      <div className="wrapper">
+        <img src={logo} />
+        <h1>Welcome, it's React\Redux Boilerplate</h1>
+        <strong>Edit src/App.js and save to reload.</strong>
+        <a href="https://github.com/AituAbdiluly" target="_blank">
+          Github
+        </a>
+      </div>
+    </div>
+  );
 };
 
 export default App;
