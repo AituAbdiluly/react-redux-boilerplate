@@ -22,7 +22,10 @@ const optimization = () => {
 };
 
 const cssLoader = (extra) => {
-  const loaders = [MiniCssExtractPlugin.loader, 'css-loader'];
+  const loaders = [
+    extra ? 'style-loader' : MiniCssExtractPlugin.loader,
+    'css-loader'
+  ];
 
   if (extra) {
     loaders.push(extra);
@@ -121,7 +124,7 @@ module.exports = {
     port: 3000,
     open: true,
     hot: devMode,
-    stats: 'minimal',
+    stats: 'errors-only',
     historyApiFallback: true
   },
   target: 'web'
