@@ -43,3 +43,27 @@ npm run build
 ```sh
 yarn build
 ```
+
+## Structure
+
+```bash
+├── package.json
+├── package-lock.json
+├── public
+│   ├── assets
+│   │   └── img
+│   │       ├── apple-touch-icon.png
+│   │       ├── favicon-16x16.png
+│   │       ├── favicon-32x32.png
+│   │       └── favicon.ico
+│   └── index.html
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── App.scss
+│   ├── index.js
+│   ├── index.scss
+│   └── logo.png
+├── webpack.config.js
+└── yarn.lock
+```
